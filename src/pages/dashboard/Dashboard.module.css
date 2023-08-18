@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f6fa;
+  height: 100vh;
+  padding: 2px 8px;
+}
+
+/* .title{
+  margin-bottom: 10px;
+} */
+
+h1 {
+  font-size: 14px;
+  color: #085778;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #505050;
+}
+
+.middle {
+  /* display: flex; */
+  margin-bottom: 20px;
+}
+
+.firstSegment {
+  background-color: white;
+  width: 100px;
+  height: 150px;
+  border-radius: 5%;
+  margin-left: 70px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* justify-content: center; */
+}
+
+.firstSegmentIcon {
+  background-color: #022b3a;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 1px;
+  border-radius: 15%;
+}
+
+.firstSegmentIcon img {
+  width: 20px;
+  height: 20px;
+  margin: 2px 2px 2px 4px;
+}
+
+.firstSegmentContent {
+  margin-top: 15px;
+  text-align: center;
+  color: #505050;
+}
+
+.firstSegmentNumber {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.firstSegmentRole {
+  font-size: 12px;
+}
+
+
+.secondSegmentRight {
+  display: flex;
+}
+
+.secondSegment {
+  background-color: white;
+  width: 75px;
+  height: 95px;
+  display: flex;
+  border-radius: 10%;
+  padding-left: 8px;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+
+
+.secondSegmentIcon {
+  background-color: #505050;
+  width: 25px;
+  height: 20px;
+  border-radius: 10%;
+  margin: 30px 0px;
+  padding: 2px;
+}
+
+.secondSegmentIcon img {
+  width: 10px;
+  height: 10px;
+  margin: 3px 2px 2px 4px;
+}
+
+.secondSegmentContent {
+  color: #505050;
+  text-align: end;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+
+.secondSegmentRole {
+  font-size: 8px;
+
+}
+
+.secondSegmentNumber {
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.thirdSegment {
+  background-color: white;
+  width: auto;
+  border-radius: 1%;
+  padding: 20px;
+  /* display: flex; */
+}
+
+.chartsLeftTop {
+  /* display: flex; */
+  border-bottom: #505050;
+}
+
+.chartsBlueTop {
+  display: flex;
+}
+
+.chartsBlueLine {
+  height: 45px;
+}
+
+.chartsBlueTopContent {
+  margin-left: 10px;
+  /* margin-top: 2px; */
+}
+
+.chartsTopStatus {
+  font-size: 8px;
+  opacity: 60%;
+}
+
+.chartsTopNumber {
+  font-size: 10px;
+}
+
+.chartsBlue {
+  margin: 10px 60px 10px 15px;
+  width: 150px;
+  
+}
+
+.chartsUnderlineLeft {
+  width: 700px;
+  height: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.chartsLeftBottomContent {
+  display: flex;
+  width: 550px;
+}
+.chartsLeftBottomIcon {
+  width: 15px;
+  height: 15px;
+  margin: 12px 10px 0 10px;
+}
+
+.chartsLeftBottomStatus {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.chartsLeftBottomPercent {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.percentLine {
+  width: 98%;
+  margin: 0px 10px;
+  padding-bottom: 10px;
+}
+
+.belumDiproses {
+  display: flex;
+}
+
+.chartsRight{
+  margin-bottom: 50px;
+}
+
+.chartsUnderlineRight {
+  width: 700px;
+  height: 1.5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  /* .body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f6fa;
+    height: 100vh;
+    padding: 10px 30px;
+  } */
+
+  .title{
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    color: #085778;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: #505050;
+  }
+
+  .middle {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .firstSegment {
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    margin-right: 20px;
+  }
+
+  .firstSegmentIcon {
+    background-color: #022b3a;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding-top: 1px;
+    border-radius: 15%;
+  }
+
+  .firstSegmentIcon img {
+    width: 50px;
+    height: 50px;
+    margin: 12px 12px 12px 14px;
+  }
+
+  .firstSegmentContent {
+    margin-top: 40px;
+    text-align: center;
+    color: #505050;
+  }
+
+  .firstSegmentNumber {
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+  .firstSegmentRole {
+    font-size: 20px;
+  }
+
+  .secondSegmentRight {
+    display: flex;
+  }
+
+  .secondSegment {
+    background-color: white;
+    width: 250px;
+    height: 95px;
+    display: flex;
+    border-radius: 10%;
+    padding-left: 8px;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  .secondSegmentIcon {
+    background-color: #505050;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin: 20px 10px;
+    padding: 5px 0 5px 5px;
+  }
+
+  .secondSegmentIcon img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+
+  .secondSegmentContent {
+    color: #505050;
+    text-align: end;
+    margin: 10px;
+    padding-top: 10px;
+  }
+
+  .secondSegmentRole {
+    font-size: 15px;
+  }
+
+  .secondSegmentNumber {
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .thirdSegment {
+    background-color: white;
+    width: auto;
+    border-radius: 1%;
+    padding: 20px;
+    display: flex;
+  }
+
+  .chartsLeftTop {
+    display: flex;
+    border-bottom: #505050;
+  }
+
+  .chartsBlueTop {
+    display: flex;
+  }
+
+  .chartsBlueLine {
+    height: 60px;
+  }
+
+  .chartsBlueTopContent {
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+
+  .chartsTopStatus {
+    font-size: 14px;
+    opacity: 60%;
+  }
+
+  .chartsTopNumber {
+    font-size: 20px;
+  }
+
+  .chartsBlue {
+    margin: 10px 60px 10px 15px;
+    width: 150px;
+    
+  }
+
+  .chartsUnderlineLeft {
+    width: 700px;
+    height: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .chartsLeftBottomContent {
+    display: flex;
+    width: 550px;
+  }
+  .chartsLeftBottomIcon {
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px 0 10px;
+  }
+
+  .chartsLeftBottomStatus {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .chartsLeftBottomPercent {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+  }
+
+  .percentLine {
+    width: 98%;
+    margin: 0px 10px;
+  }
+
+  .belumDiproses {
+    display: flex;
+  }
+
+  .chartsRight{
+    padding-left: 10px;
+  }
+
+  .chartsUnderlineRight {
+    width: 700px;
+    height: 1.5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
